@@ -1,0 +1,31 @@
+{
+  "name": "come_write",
+  "version": "1.0.0",
+  "description": "simple multi-user real-time collaborative text editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "devStart": "nodemon src/server.ts",
+    "deploy": "pm2 start ./server.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordNayan/come_write.git"
+  },
+  "author": "Nayan Lakhwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordNayan/come_write/issues"
+  },
+  "homepage": "https://github.com/LordNayan/come_write#readme",
+  "dependencies": {
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2"
+  }
+}
