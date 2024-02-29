@@ -1,0 +1,19 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container .ql-editor {
+    min-height: 6in;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.container .ql-toolbar {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
